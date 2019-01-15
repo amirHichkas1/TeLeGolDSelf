@@ -10,8 +10,8 @@ tdcli = dofile("tdcli.lua")
 utf8 = dofile('utf8.lua')
 db = dofile('database.lua')
 http.TIMEOUT = 10
-local bot_id = 545628723
-sudo_users = {545628723}
+local bot_id = 584827563
+sudo_users = {584827563}
 function is_sudo(msg)
   local var = false
   for v,user in pairs(sudo_users) do
